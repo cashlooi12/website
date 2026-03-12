@@ -1,9 +1,12 @@
----
+ ---
 title: "Cash Looi"
 image: CashLooi.jpg
 about:
   template: trestles
   image-shape: round
+format:
+  html:
+    css: styles.css
 ---
 
 Hi! My name is Cash and I am a second-year PhD student at the Department of Econometrics and Business Statistics, Monash University.
