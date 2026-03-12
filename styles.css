@@ -1,11 +1,38 @@
-/* css styles */
-
+/* navbar background */
 .navbar {
   background-color: #8B7D7B;
   border-bottom: 2px solid #EDEDED;
 }
 
-
+/* normal nav links */
 .navbar a {
   color: white;
+}
+
+/* nav link hover */
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;
+  color: inherit !important;
+}
+
+/* active nav link (current page) */
+.navbar-nav .nav-link.active {
+  color: #333333 !important;
+}
+
+/* SITE TITLE / navbar-brand styling */
+.navbar-brand {
+  color: white !important;       /* normal color */
+  text-decoration: none;
+}
+
+/* site title hover */
+.navbar-brand:hover {
+  text-decoration: underline;
+  color: inherit !important;       /* same as normal */
+}
+
+/* site title active (when on homepage) */
+.navbar-brand.active {
+  color: #333333 !important;     /* black when active */
 }
