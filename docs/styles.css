@@ -1,1 +1,11 @@
 /* css styles */
+
+.navbar {
+  background-color: #8B7D7B;
+  border-bottom: 2px solid #EDEDED;
+}
+
+
+.navbar a {
+  color: white;
+}
