@@ -3,13 +3,13 @@ project:
   output-dir: docs
 
 website:
-  title: "PersonalWebsite"
+  title: "Cash Looi"   # this becomes the "Home" link
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-      - conference.qmd
+      - href: about.qmd
+        text: About
+      - href: conference.qmd
+        text: Conference
 
 format:
   html:
