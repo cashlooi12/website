@@ -4,7 +4,5 @@ title: "Conference"
 
 Conference
 
-```{r}
-Bayes on the Beach 2026 
+- Bayes on the Beach 2026 
 
-```
